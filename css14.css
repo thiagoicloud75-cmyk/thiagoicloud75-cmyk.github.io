@@ -1,0 +1,42 @@
+#linha01 {
+background-color: blue;
+width: 150px;
+color: white;
+
+}
+#linha02 {
+background-color:gray;
+width: 150px;
+color: white;
+ 
+}
+#linha03 {
+background-color: magenta;
+width: 150px;
+color: white;
+
+}
+#geral {
+    background-color: cyan;
+    width: 150px;
+}
+#geral #coluna01 {
+    background-color: purple;
+    width: 35%;
+    height: 10%;
+     float: left;
+}
+#geral #coluna02 {
+    background-color: pink;
+    width: 35%;
+    height: 10%;
+     float: left;
+}
+#geral #coluna03 {
+    background-color: orange;
+    width: 35%;
+    height: 10%;
+    /*float: left;*/
+    clear:both
+
+}
