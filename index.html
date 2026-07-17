@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Copa do Mundo 2026</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f1f5f9;
+}
+
+/* MENU */
+
+header{
+    background:#06283D;
+    color:white;
+    padding:20px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+}
+
+.logo span{
+    color:#FFD700;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:25px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#FFD700;
+}
+
+
+/* BANNER */
+
+.hero{
+
+    height:85vh;
+    background:
+    linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+    url("https://images.unsplash.com/photo-1574629810360-7efbbe195018");
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+    color:white;
+
+}
+
+.hero h1{
+    font-size:60px;
+}
+
+.hero p{
+    font-size:22px;
+    margin:20px;
+}
+
+.botao{
+
+    display:inline-block;
+    background:#FFD700;
+    color:#06283D;
+
+    padding:15px 35px;
+    border-radius:30px;
+
+    text-decoration:none;
+    font-weight:bold;
+
+}
+
+
+/* SEÇÕES */
+
+section{
+    padding:60px 8%;
+}
+
+.titulo{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.titulo h2{
+    font-size:38px;
+    color:#06283D;
+}
+
+
+/* NOTICIAS */
+
+.cards{
+
+    display:grid;
+    grid-template-columns:
+    repeat(auto-fit,minmax(280px,1fr));
+
+    gap:30px;
+
+}
+
+
+.card{
+
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+
+    box-shadow:0 10px 25px #0002;
+
+}
+
+
+.card img{
+
+    width:100%;
+    height:180px;
+    object-fit:cover;
+
+}
+
+
+.card div{
+
+    padding:20px;
+
+}
+
+.card h3{
+
+    color:#06283D;
+    margin-bottom:10px;
+
+}
+
+
+/* SELEÇÕES */
+
+.selecoes{
+
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+
+}
+
+
+.time{
+
+background:white;
+padding:25px;
+
+border-radius:15px;
+
+text-align:center;
+
+width:220px;
+
+box-shadow:0 5px 20px #0002;
+
+}
+
+
+.bandeira{
+
+font-size:60px;
+
+}
+
+
+/* TABELA */
+
+table{
+
+width:100%;
+background:white;
+border-collapse:collapse;
+
+}
+
+
+th{
+
+background:#06283D;
+color:white;
+
+}
+
+
+td,th{
+
+padding:15px;
+text-align:center;
+
+border:1px solid #ddd;
+
+}
+
+
+/* RODAPE */
+
+footer{
+
+background:#06283D;
+
+color:white;
+
+text-align:center;
+
+padding:25px;
+
+}
+
+
+
+@media(max-width:700px){
+
+header{
+
+flex-direction:column;
+
+}
+
+nav{
+
+margin-top:20px;
+
+}
+
+.hero h1{
+
+font-size:40px;
+
+}
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<header>
+
+<div class="logo">
+🏆 <span>Copa</span> Mundial
+</div>
+
+
+<nav>
+
+<a href="#">Início</a>
+<a href="#noticias">Notícias</a>
+<a href="#times">Seleções</a>
+<a href="#tabela">Tabela</a>
+
+</nav>
+
+</header>
+
+
+
+<section class="hero">
+
+<div>
+
+<h1>Copa do Mundo 2026</h1>
+
+<p>
+Tudo sobre jogos, seleções, notícias e grandes craques do futebol mundial.
+</p>
+
+
+<a class="botao" href="#noticias">
+Ver Notícias
+</a>
+
+
+</div>
+
+</section>
+
+
+
+<section id="noticias">
+
+
+<div class="titulo">
+
+<h2>📰 Últimas Notícias</h2>
+
+</div>
+
+
+
+<div class="cards">
+
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1518600506278-4e8ef466b810">
+
+<div>
+
+<h3>Grandes seleções preparadas</h3>
+
+<p>
+Os principais times chegam fortes em busca do título mundial.
+</p>
+
+</div>
+
+</div>
+
+
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211">
+
+<div>
+
+<h3>Craques da Copa</h3>
+
+<p>
+Veja os jogadores que podem decidir a competição.
+</p>
+
+</div>
+
+</div>
+
+
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1526232761682-d26e03ac148e">
+
+<div>
+
+<h3>História da Copa</h3>
+
+<p>
+Confira campeões, recordes e momentos inesquecíveis.
+</p>
+
+</div>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+
+
+
+<section id="times">
+
+
+<div class="titulo">
+
+<h2>🌎 Seleções Favoritas</h2>
+
+</div>
+
+
+<div class="selecoes">
+
+
+<div class="time">
+
+<div class="bandeira">🇦🇷</div>
+
+<h3>Argentina</h3>
+
+<p>Campeã Mundial</p>
+
+</div>
+
+
+
+<div class="time">
+
+<div class="bandeira">🇧🇷</div>
+
+<h3>Brasil</h3>
+
+<p>5 títulos mundiais</p>
+
+</div>
+
+
+
+<div class="time">
+
+<div class="bandeira">🇪🇸</div>
+
+<h3>Espanha</h3>
+
+<p>Campeã Mundial</p>
+
+</div>
+
+
+<div class="time">
+
+<div class="bandeira">🇫🇷</div>
+
+<h3>França</h3>
+
+<p>Atual potência</p>
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+<section id="tabela">
+
+
+<div class="titulo">
+
+<h2>🏆 Classificação</h2>
+
+</div>
+
+
+
+<table>
+
+<tr>
+
+<th>Seleção</th>
+<th>Pontos</th>
+<th>Jogos</th>
+
+</tr>
+
+
+<tr>
+
+<td>🇦🇷 Argentina</td>
+<td>9</td>
+<td>3</td>
+
+</tr>
+
+
+<tr>
+
+<td>🇧🇷 Brasil</td>
+<td>7</td>
+<td>3</td>
+
+</tr>
+
+
+<tr>
+
+<td>🇪🇸 Espanha</td>
+<td>6</td>
+<td>3</td>
+
+</tr>
+
+
+</table>
+
+
+</section>
+
+
+
+
+<footer>
+
+<p>
+© 2026 Copa Mundial - Portal de Futebol
+</p>
+
+</footer>
+
+
+
+</body>
+</html>
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Meu Site</h1>
+    <p>Bem-vindo à página inicial</p>
+</header>
+
+<nav>
+    <a href="index.html">Início</a>
+    <a href="curriculo.html">Currículo</a>
+    <a href="falecomigo.html">Fale Comigo</a>
+    <a href="copadomundo.html">Notícias</a>
+</nav>
+
+
+<section class="principal">
+
+    <h1>Olá, seja bem-vindo!</h1>
+
+    <p>
+        Este é meu site pessoal com informações,
+        currículo e notícias.
+    </p>
+
+    <a class="botao" href="curriculo.html">
+        Ver Currículo
+    </a>
+
+    <a class="botao" href="falecomigo.html">
+        Ver Fale Comigo
+    </a>
+
+     <a class="botao" href="copadomundo.html">
+        Ver copadomundo
+     </a>
+
+</section>
+
+
+<footer>
+    © 2026 - Meu Site
+</footer>
+
+</body>
+</html>
